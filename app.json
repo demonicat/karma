@@ -1,5 +1,7 @@
 {
   "expo": {
+    "scheme": "karma",
+    "owner": "schmelman",
     "name": "karma",
     "slug": "karma",
     "version": "1.0.0",
@@ -8,7 +10,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#44337A"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -19,14 +21,13 @@
     "ios": {
       "supportsTablet": true
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+    "androidNavigationBar": {
+      "backgroundColor": "#44337A",
+      "barStyle": "light-content"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "androidStatusBar": {
+      "backgroundColor": "#44337A",
+      "barStyle": "light-content"
     }
   }
 }

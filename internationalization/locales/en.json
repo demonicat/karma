@@ -1,0 +1,25 @@
+{
+  "app-name": "Karma",
+  "modal-settings": {
+    "change-colormode": "Change to %{colorMode} theme",
+    "title": "Settings"
+  },
+  "modal-user": {
+    "login-with-google": "Login with Google",
+    "logout": "Logout",
+    "title": "Me, Myself and Hyde",
+    "welcome-username": "Welcome %{username}"
+  },
+  "routes": {
+    "home": "Home"
+  },
+  "screen-error": {
+    "reset": "Restart app",
+    "title": "There was an error."
+  },
+  "screen-home": {
+    "end": "There are also many more nice things about Expo and React Native here, but I'll leave it to you.\nHappy Coding!",
+    "welcome": "Welcome to Karma",
+    "what-is-karma": "Karma is a Expo boilerplate strongly based on Ignite. And why it exists? Simple, I just didn't wanna setup every single thing every time. Some of the things available here include:"
+  }
+}
