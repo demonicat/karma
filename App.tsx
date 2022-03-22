@@ -9,7 +9,7 @@ import { ErrorBoundary } from "./screens";
 import { RootStore, RootStoreProvider, setupRootStore } from "./store";
 import * as storage from "./utils/storage";
 
-export const NAVIGATION_PERSISTENCE_KEY = "ICTIOBIOMETRIA_NAVIGATION_STATE";
+export const NAVIGATION_PERSISTENCE_KEY = "KARMA_NAVIGATION_STATE";
 
 export default function App(): JSX.Element {
   const [rootStore, setRootStore] = useState<RootStore | undefined>(undefined);
