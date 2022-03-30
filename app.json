@@ -4,7 +4,7 @@
     "owner": "schmelman",
     "name": "karma",
     "slug": "karma",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -19,7 +19,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "1.0.1"
     },
     "androidNavigationBar": {
       "backgroundColor": "#44337A",
@@ -28,6 +29,9 @@
     "androidStatusBar": {
       "backgroundColor": "#44337A",
       "barStyle": "light-content"
+    },
+    "android": {
+      "versionCode": 0
     }
   }
 }
