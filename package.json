@@ -58,18 +58,25 @@
       "main"
     ],
     "verifyConditions": [
-      "semantic-release-expo",
+      {
+        "path": "semantic-release-expo",
+        "manifests": ["app.json"]
+      },
       "@semantic-release/changelog",
       "@semantic-release/git",
       "@semantic-release/npm"
     ],
     "prepare": [
-      "semantic-release-expo",
+      {
+        "path": "semantic-release-expo",
+        "manifests": ["app.json"]
+      },
       "@semantic-release/changelog",
       "@semantic-release/npm",
       {
         "path": "@semantic-release/git",
         "assets": [
+          "app.json",
           "yarn.lock",
           "CHANGELOG.md"
         ],
