@@ -77,7 +77,7 @@ export const Screen: FC<ScreenProps> = observer((props) => {
           ]}
           keyboardShouldPersistTaps={props.keyboardShouldPersistTaps || "handled"}
         >
-          <>{props.children}</>
+          {props.children}
         </ScrollView>
       </View>
       {isIos && <StatusBar style={colorMode === "light" ? "dark" : "light"} />}

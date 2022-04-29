@@ -13,7 +13,6 @@ export const UserStoreModel = types
     uid: types.optional(types.string, ""),
     email: types.optional(types.string, ""),
     picture: types.optional(types.string, ""),
-    signedIn: types.optional(types.boolean, false),
   })
   .extend(withEnvironment)
   .actions((self) => ({
@@ -22,15 +21,12 @@ export const UserStoreModel = types
       id,
       email,
       picture,
-      signedIn,
     }: {
-      signedIn?: boolean;
       name?: string;
       id?: string;
       email?: string;
       picture?: string;
     }) => {
-      self.signedIn = signedIn;
       self.uid = id;
       self.name = name;
       self.email = email;
