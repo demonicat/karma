@@ -1,5 +1,6 @@
 import "./utils/colors";
 import "./utils/ignore-warnings";
+import "./utils/firebase";
 
 import React, { useEffect, useState } from "react";
 import { initialWindowMetrics, SafeAreaProvider } from "react-native-safe-area-context";
